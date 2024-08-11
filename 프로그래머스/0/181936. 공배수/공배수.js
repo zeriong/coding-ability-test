@@ -1,0 +1,1 @@
+const solution = (number, n, m) => (number % m == 0) && (number % n == 0) ? 1 : 0
