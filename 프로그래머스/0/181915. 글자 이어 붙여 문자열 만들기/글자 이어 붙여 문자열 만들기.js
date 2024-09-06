@@ -1,0 +1,1 @@
+const solution = (str, list) => list.reduce((a,v,i) => a+str[v], "");
