@@ -1,0 +1,1 @@
+let solution=(n)=>n.split("").reduce((a,v)=>Number(a)+Number(v),0)%9
