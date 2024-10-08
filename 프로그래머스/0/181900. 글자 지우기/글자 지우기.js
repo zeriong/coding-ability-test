@@ -1,0 +1,1 @@
+const solution = (str, ind, ans = "") => {for (let i = 0; i < str.length; i++) if (!ind.some(v => v==i)) ans += str[i]; return ans};
