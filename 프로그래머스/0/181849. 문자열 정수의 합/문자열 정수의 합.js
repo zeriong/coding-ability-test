@@ -1,0 +1,1 @@
+const solution=(str,ans=0)=>{Array.from({length:str.length},(_,i)=>ans+=+str[i]);return ans;}
