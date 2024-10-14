@@ -1,0 +1,1 @@
+const solution=(li,od=0,ev=0)=>{li.map((v,i)=>i%2>0?od+=v:ev+=v);return Math.max(od,ev);}
