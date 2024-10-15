@@ -1,0 +1,1 @@
+const solution=(li, n)=>[...li.splice(n, li.length), ...li];
