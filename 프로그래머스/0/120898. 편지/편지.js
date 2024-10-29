@@ -1,1 +1,1 @@
-const solution = (m) => m.length*2;
+solution=(l)=>l.length*2;
