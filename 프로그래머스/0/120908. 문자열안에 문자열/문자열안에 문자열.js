@@ -1,0 +1,1 @@
+solution=(s,i)=>s.includes(i)?1:2;
