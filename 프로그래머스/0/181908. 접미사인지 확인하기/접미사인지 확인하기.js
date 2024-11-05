@@ -1,0 +1,1 @@
+solution=(s,f)=> Number([...s].slice((s.length - f.length), s.lengh).join('') == f);
