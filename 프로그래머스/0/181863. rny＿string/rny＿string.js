@@ -1,0 +1,1 @@
+solution=(뿡)=>뿡.replace(/m/g, "rn");
