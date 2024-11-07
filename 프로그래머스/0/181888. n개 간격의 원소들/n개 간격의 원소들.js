@@ -1,0 +1,1 @@
+solution=(l,n,a=0)=>l.map((v,i)=>a>l.length?"0":i==0?l[0]:l[a+=n]).filter(Number);
