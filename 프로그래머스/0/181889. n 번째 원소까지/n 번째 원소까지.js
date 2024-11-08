@@ -1,0 +1,1 @@
+solution=(l,n)=> l.slice(0,n)
