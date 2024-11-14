@@ -1,0 +1,1 @@
+solution=(l)=>l.findIndex((v)=>v<0);
