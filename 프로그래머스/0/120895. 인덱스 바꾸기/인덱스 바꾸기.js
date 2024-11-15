@@ -1,0 +1,1 @@
+solution=(li,n,n2)=>{let l=[...li];let f=l[n];let s=l[n2];l[n]=s;l[n2]=f;return l.join("")}
