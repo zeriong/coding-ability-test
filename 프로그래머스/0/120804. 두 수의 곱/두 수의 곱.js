@@ -1,0 +1,1 @@
+solution=(f,s)=>f*s;
