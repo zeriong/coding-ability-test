@@ -1,0 +1,1 @@
+solution=(n)=>[...String(n)].reduce((a,c)=>+a+ +c, 0)
