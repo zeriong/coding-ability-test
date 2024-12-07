@@ -1,0 +1,1 @@
+solution=(s,d)=>d.find((v)=>s.every((_v)=>v.includes(_v))) ? 1 : 2;
