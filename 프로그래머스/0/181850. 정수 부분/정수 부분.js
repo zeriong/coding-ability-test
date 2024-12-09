@@ -1,0 +1,1 @@
+solution=(f)=>Math.floor(f);
