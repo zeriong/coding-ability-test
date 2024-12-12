@@ -1,0 +1,1 @@
+solution=(l,e)=>l.filter(v=>!v.includes(e)).join("");
