@@ -1,0 +1,1 @@
+solution=(l)=>l.reduce((a,c)=>l.length>10?a+c:(a==0?1*c:a*c),0);
