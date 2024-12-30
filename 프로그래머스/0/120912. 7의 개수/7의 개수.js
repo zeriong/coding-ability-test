@@ -1,0 +1,1 @@
+solution=(a)=>a.join("").split("").filter(v=>v==7).length;
