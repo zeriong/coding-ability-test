@@ -1,0 +1,1 @@
+solution=(b)=>eval(b);
