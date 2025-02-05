@@ -1,0 +1,1 @@
+solution=(a,d)=>a.filter(v=>!d.some(i=>i==v));
