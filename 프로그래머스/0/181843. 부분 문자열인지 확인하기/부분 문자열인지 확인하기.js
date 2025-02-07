@@ -1,0 +1,1 @@
+solution=(s,t)=>Number(s.includes(t))
