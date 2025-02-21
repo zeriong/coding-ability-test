@@ -1,0 +1,1 @@
+solution=(n)=>Array.from({length:n}, (_,i)=>i+1).reduce((a,c)=>n%c?a:a+c,0);
