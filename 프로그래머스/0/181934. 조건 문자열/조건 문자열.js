@@ -4,4 +4,4 @@ function solution(ineq, eq, n, m) {
     if (sumStr == "<=") return Number(n <= m);
     if (sumStr == ">!") return Number(n > m);
     if (sumStr == "<!") return Number(n < m);
-}
+} 
