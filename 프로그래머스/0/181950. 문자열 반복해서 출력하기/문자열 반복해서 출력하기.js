@@ -10,7 +10,7 @@ rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
     cnt = 1;
-    word = input[0];
+    word = input[0]; 
     str = word;
     n = Number(input[1]);
     
