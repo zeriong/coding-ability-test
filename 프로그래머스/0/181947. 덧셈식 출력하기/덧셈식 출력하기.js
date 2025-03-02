@@ -17,7 +17,7 @@ rl.on('line', function (line) {
         sum += Number(input[i]);
         if (i === length - 1) answer += input[i] + " = " + sum
         else answer += input[i] + " + ";
-    }
+    } 
     
     console.log(answer);
 });
