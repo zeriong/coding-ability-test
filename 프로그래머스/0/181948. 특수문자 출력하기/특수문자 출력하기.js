@@ -6,4 +6,4 @@ const rl = readline.createInterface({
 
 rl.on('close', function () {
     console.log(`!@#$%^&*(\\'"<>?:;`)
-});
+}); 
