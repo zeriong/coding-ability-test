@@ -8,4 +8,4 @@ const solution = (n) => {
         }
     }
     return answer;
-}
+} 
