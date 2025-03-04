@@ -11,5 +11,5 @@ rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
     input.map(val => answer += val);
-    console.log(answer);
+    console.log(answer); 
 });
