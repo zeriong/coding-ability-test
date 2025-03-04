@@ -12,4 +12,4 @@ rl.on('line', function (line) {
     n = Number(input[0]);
     
     console.log(`${n} is ${n % 2 > 0 ? 'odd' : 'even'}`)
-});
+}); 
