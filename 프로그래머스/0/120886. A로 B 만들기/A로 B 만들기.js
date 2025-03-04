@@ -1,0 +1,1 @@
+solution=(a,b)=>+([...b].sort().join("") == [...a].sort().join(""))
