@@ -8,4 +8,4 @@ function solution(a, b, c) {
     if (cnt >= 3) answer = answer * (a**3 + b**3 + c**3);
     
     return answer;
-}
+} 
