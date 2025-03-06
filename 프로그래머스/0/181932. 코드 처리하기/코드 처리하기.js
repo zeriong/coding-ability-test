@@ -11,7 +11,7 @@ function solution(code) {
             continue;
         }
         
-        if (
+        if ( 
             (mode == "0") && (i % 2 == 0) ||
             (mode == "1") && (i % 2 > 0)
         ) {
