@@ -6,5 +6,5 @@ function solution(a, d, included) {
         a += d;
     }
     
-    return answer;
+    return answer; 
 }
