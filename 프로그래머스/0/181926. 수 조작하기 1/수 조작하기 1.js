@@ -3,6 +3,6 @@ function solution(n, control) {
     for (let i = 0; i < control.length; i++) {
         const word = control[i];
         n += obj[word]
-    }
+    } 
     return n;
 }
