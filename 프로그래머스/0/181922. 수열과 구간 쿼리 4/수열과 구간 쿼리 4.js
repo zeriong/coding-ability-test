@@ -10,5 +10,5 @@ function solution(arr, queries) {
         }
     }
 
-    return arr;
+    return arr; 
 }
