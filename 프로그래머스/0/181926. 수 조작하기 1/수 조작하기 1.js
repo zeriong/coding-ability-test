@@ -5,4 +5,4 @@ function solution(n, control) {
         n += obj[word]
     } 
     return n;
-}
+} 
