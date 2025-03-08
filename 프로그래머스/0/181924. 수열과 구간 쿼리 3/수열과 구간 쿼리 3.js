@@ -5,5 +5,5 @@ function solution(arr, queries) {
         answer[j] = arr[i];
         arr = [...answer];
     })
-    return answer;
+    return answer; 
 }
