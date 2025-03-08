@@ -4,6 +4,6 @@ function solution(numLog) {
     for (let i = 1; i < numLog.length; i++) {
         const calc = numLog[i] - numLog[i - 1];
         answer += obj[calc];
-    }
+    } 
     return answer;
 }
