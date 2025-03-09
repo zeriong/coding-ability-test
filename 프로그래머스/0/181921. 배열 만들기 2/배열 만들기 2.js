@@ -12,5 +12,5 @@ function solution(l, r) {
         if (filtered.length == splitArr.length) answer.push(i);
     }
     
-    return answer.length ? answer : [-1];
+    return answer.length ? answer : [-1]; 
 }
