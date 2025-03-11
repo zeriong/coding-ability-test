@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 35 MB, 시간: 3.93 ms
+메모리: 35 MB, 시간: 4.48 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 10일 00:00:13
+2025년 03월 11일 21:11:25
 
 ### 문제 설명
 
@@ -57,21 +57,34 @@
 <ul>
 <li>예제 1번의 <code>my_string</code>은 "rermgorpsam"이고 주어진 <code>queries</code>를 순서대로 처리하면 다음과 같습니다.</li>
 </ul>
-
-<p>|queries|my_string|</p>
-
-<p>|---|---|</p>
-
-<p>||"rermgorpsam"|</p>
-
-<p>|[2, 3]|"remrgorpsam"|</p>
-
-<p>|[0, 7]|"progrmersam"|</p>
-
-<p>|[5, 9]|"prograsremm"|</p>
-
-<p>|[6, 10]|"programmers"|</p>
-<div class="highlight"><pre class="codehilite"><code>따라서 "programmers"를 return 합니다.
+<table class="table">
+        <thead><tr>
+<th>queries</th>
+<th>my_string</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td></td>
+<td>"rermgorpsam"</td>
+</tr>
+<tr>
+<td>[2, 3]</td>
+<td>"remrgorpsam"</td>
+</tr>
+<tr>
+<td>[0, 7]</td>
+<td>"progrmersam"</td>
+</tr>
+<tr>
+<td>[5, 9]</td>
+<td>"prograsremm"</td>
+</tr>
+<tr>
+<td>[6, 10]</td>
+<td>"programmers"</td>
+</tr>
+</tbody>
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 "programmers"를 return 합니다.
 </code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
