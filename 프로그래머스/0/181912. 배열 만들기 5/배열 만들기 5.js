@@ -1,1 +1,1 @@
-const solution = (str, k, s, l) => str.map(v => Number(v.slice(s, l + s))).filter(v => v > k);
+const solution = (str, k, s, l) => str.map(v => Number(v.slice(s, l + s))).filter(v => v > k); 
