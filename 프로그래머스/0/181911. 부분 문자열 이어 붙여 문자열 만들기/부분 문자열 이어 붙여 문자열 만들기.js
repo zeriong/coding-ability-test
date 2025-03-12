@@ -11,5 +11,5 @@ function solution(my_strings, parts) {
         else answer += my_strings[i].slice(start, end + 1);
     }
     
-    return answer;
+    return answer; 
 }

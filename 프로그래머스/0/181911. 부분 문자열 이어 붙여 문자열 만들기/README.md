@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 33.6 MB, 시간: 2.51 ms
+메모리: 33.7 MB, 시간: 4.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 02일 18:23:19
+2025년 03월 12일 21:56:40
 
 ### 문제 설명
 
@@ -60,7 +60,8 @@
 <p>입출력 예 #1</p>
 
 <ul>
-<li><p>예제 1번의 입력을 보기 좋게 표로 나타내면 다음과 같습니다.</p>
+<li>예제 1번의 입력을 보기 좋게 표로 나타내면 다음과 같습니다.</li>
+</ul>
 <table class="table">
         <thead><tr>
 <th>i</th>
@@ -94,9 +95,7 @@
 <td>"s"</td>
 </tr>
 </tbody>
-      </table>
-<p>각 부분 문자열을 순서대로 이어 붙인 문자열은 "programmers"입니다. 따라서 "programmers"를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>각 부분 문자열을 순서대로 이어 붙인 문자열은 "programmers"입니다. 따라서 "programmers"를 return 합니다.
+</code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
