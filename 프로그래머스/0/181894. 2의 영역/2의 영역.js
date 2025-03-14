@@ -1,5 +1,3 @@
-// solution=(a)=>[a.findIndex(v=>v==2), a.findLastIndex((v=>v==2))]
-
 solution = (arr, iArr=[]) => {
     arr.forEach((v,i)=>{
         if(v==2) {
