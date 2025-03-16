@@ -1,1 +1,1 @@
-solution=(l)=>l.findIndex((v)=>v<0);
+solution=(l)=>l.findIndex((v)=>v<0); 
