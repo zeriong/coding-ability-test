@@ -7,5 +7,5 @@ function solution(n, slicer, num_list, answer = []) {
     for (let i = 0; i < arr.length; i++) {
         if (i % slicer[2] == 0) answer.push(arr[i]);
     }
-    return answer;
+    return answer; 
 }
