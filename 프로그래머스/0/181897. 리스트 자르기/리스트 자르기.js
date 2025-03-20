@@ -8,4 +8,4 @@ function solution(n, slicer, num_list, answer = []) {
         if (i % slicer[2] == 0) answer.push(arr[i]);
     }
     return answer; 
-}
+} 
