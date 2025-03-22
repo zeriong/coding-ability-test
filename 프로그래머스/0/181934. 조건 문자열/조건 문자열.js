@@ -3,5 +3,5 @@ function solution(ineq, eq, n, m) {
     if (sumStr == ">=") return +(n >= m);
     if (sumStr == "<=") return +(n <= m);
     if (sumStr == ">!") return +(n > m);
-    if (sumStr == "<!") return +(n < m); 
+    if (sumStr == "<!") return +(n < m);
 } 
