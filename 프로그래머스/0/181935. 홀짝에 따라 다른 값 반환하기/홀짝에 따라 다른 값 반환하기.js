@@ -5,7 +5,7 @@ const solution = (n) => {
             if (i % 2 == 0) answer += i * i;
         } else {
             if (i % 2 > 0) answer += i;
-        }
+        } 
     }
     return answer;
 } 
