@@ -11,5 +11,4 @@ rl.on('line', function (line) {
     console.log(line);
 }).on('close',function(){
     str = input[0];
-});  
-
+});
