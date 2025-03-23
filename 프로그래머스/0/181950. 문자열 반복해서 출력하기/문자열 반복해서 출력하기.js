@@ -18,6 +18,5 @@ rl.on('line', function (line) {
         cnt += 1;
         str += word;
     }
-        
     console.log(str);
 });
