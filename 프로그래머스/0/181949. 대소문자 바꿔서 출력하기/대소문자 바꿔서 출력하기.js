@@ -21,5 +21,5 @@ rl.on('line', function (line) {
         else answer += upper;
     }
 
-    console.log(answer)
+    console.log(answer);
 });
