@@ -11,4 +11,3 @@ rl.on('line', function (line) {
 }).on('close', function () {
     console.log(`a = ${input[0]}\nb = ${input[1]}`);
 });
-
