@@ -1,1 +1,1 @@
-solution=(s)=>s.split(" ");
+solution=(s)=>s.split(" "); 
