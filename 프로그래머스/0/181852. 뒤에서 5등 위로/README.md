@@ -1,6 +1,6 @@
 # [level 0] 뒤에서 5등 위로 - 181852 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181852#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181852) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 19일 21:47:42
+2025년 03월 24일 22:15:56
 
 ### 문제 설명
 

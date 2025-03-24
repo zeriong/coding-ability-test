@@ -1,1 +1,1 @@
-solution=(l)=>l.sort((a,b)=>a-b).slice(5);
+solution=(l)=>l.sort((a,b)=>a-b).slice(5); 
