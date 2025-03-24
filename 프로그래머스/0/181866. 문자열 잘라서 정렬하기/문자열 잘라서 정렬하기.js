@@ -1,1 +1,1 @@
-solution=(s)=>s.split("x").filter(v=>v).sort();
+solution=(s)=>s.split("x").filter(v=>v).sort(); 
