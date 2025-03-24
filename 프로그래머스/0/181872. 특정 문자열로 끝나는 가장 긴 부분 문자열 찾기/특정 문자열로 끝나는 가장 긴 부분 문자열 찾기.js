@@ -1,1 +1,1 @@
-solution=(s,p)=>s.slice(0, s.lastIndexOf(p) + p.length);
+solution=(s,p)=>s.slice(0, s.lastIndexOf(p) + p.length); 
