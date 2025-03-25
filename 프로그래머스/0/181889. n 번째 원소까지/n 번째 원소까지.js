@@ -1,1 +1,1 @@
-solution=(l,n)=> l.slice(0,n)
+solution=(l,n)=> l.slice(0,n);
