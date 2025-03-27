@@ -6,6 +6,6 @@ function solution(board, k) {
             if (i + j <= k) answer += board[i][j];
         }
     }
-    
+     
     return answer;
 }
