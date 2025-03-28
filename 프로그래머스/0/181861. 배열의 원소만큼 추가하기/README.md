@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 36.5 MB, 시간: 0.90 ms
+메모리: 36.5 MB, 시간: 0.89 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 18일 12:47:44
+2025년 03월 28일 20:41:55
 
 ### 문제 설명
 
@@ -63,51 +63,78 @@
 <ul>
 <li>예제 1번에 대해서 a와 X를 나타내보면 다음 표와 같습니다.</li>
 </ul>
-
-<p>|a|X|</p>
-
-<p>|---|---|</p>
-
-<p>||[]|</p>
-
-<p>|5|[5, 5, 5, 5, 5]|</p>
-
-<p>|1|[5, 5, 5, 5, 5, 1]|</p>
-
-<p>|4|[5, 5, 5, 5, 5, 1, 4, 4, 4, 4]|</p>
-<div class="highlight"><pre class="codehilite"><code>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.
+<table class="table">
+        <thead><tr>
+<th>a</th>
+<th>X</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td></td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>[5, 5, 5, 5, 5]</td>
+</tr>
+<tr>
+<td>1</td>
+<td>[5, 5, 5, 5, 5, 1]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>[5, 5, 5, 5, 5, 1, 4, 4, 4, 4]</td>
+</tr>
+</tbody>
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.
 </code></pre></div>
 <p>입출력 예 #2</p>
 
 <ul>
 <li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
 </ul>
-
-<p>|a|X|</p>
-
-<p>|---|---|</p>
-
-<p>||[]|</p>
-
-<p>|6|[6, 6, 6, 6, 6, 6]|</p>
-
-<p>|6|[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]|</p>
-<div class="highlight"><pre class="codehilite"><code>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.
+<table class="table">
+        <thead><tr>
+<th>a</th>
+<th>X</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td></td>
+<td>[]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>[6, 6, 6, 6, 6, 6]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]</td>
+</tr>
+</tbody>
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.
 </code></pre></div>
 <p>입출력 예 #3</p>
 
 <ul>
 <li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
 </ul>
-
-<p>|a|X|</p>
-
-<p>|---|---|</p>
-
-<p>||[]|</p>
-
-<p>|1|[1]|</p>
-<div class="highlight"><pre class="codehilite"><code>따라서 [1]을 return 합니다.
+<table class="table">
+        <thead><tr>
+<th>a</th>
+<th>X</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td></td>
+<td>[]</td>
+</tr>
+<tr>
+<td>1</td>
+<td>[1]</td>
+</tr>
+</tbody>
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [1]을 return 합니다.
 </code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
