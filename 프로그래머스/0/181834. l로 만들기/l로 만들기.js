@@ -1,1 +1,1 @@
-solution=(s)=>[...s].map(v=>v.charCodeAt()<=108?"l":v).join("");
+solution=(s)=>[...s].map(v=>v.charCodeAt()<=108?"l":v).join(""); 
