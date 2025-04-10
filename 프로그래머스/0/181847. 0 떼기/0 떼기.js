@@ -1,1 +1,1 @@
-solution=(s)=>Number(s).toString();
+solution=(s)=>Number(s).toString(); 
