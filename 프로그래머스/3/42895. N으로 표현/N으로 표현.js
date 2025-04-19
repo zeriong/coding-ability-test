@@ -10,7 +10,7 @@ function solution(N, number) {
         arr[i].add(parseInt(v1 / v2));
     }
     
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 8; i++) { 
         for (let j = 0; j < i; j++) {
             for (let v1 of arr[j]) {
                 for (let v2 of arr[i - j - 1]) {
