@@ -7,7 +7,7 @@ function solution(n) {
     let word = "";
     
     while (arr.length) {
-        const start = arr.shift();
+        const start = arr.shift(); 
         
         word += start;
         
