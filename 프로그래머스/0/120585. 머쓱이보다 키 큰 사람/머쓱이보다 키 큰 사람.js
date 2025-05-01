@@ -1,1 +1,1 @@
-const solution = (arr, h) => arr.filter(v => h<v).length;
+const solution = (arr, h) => arr.filter(v => h<v).length; 
