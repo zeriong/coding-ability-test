@@ -1,1 +1,1 @@
-solution=(a,k)=>a.map(v=>k%2==0?v+k:v*k);
+solution=(a,k)=>a.map(v=>k%2==0?v+k:v*k); 
