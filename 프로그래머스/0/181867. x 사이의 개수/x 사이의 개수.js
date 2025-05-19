@@ -1,1 +1,1 @@
-solution=(s)=>s.split("x").map(v=>v.length);
+solution=(s)=>s.split("x").map(v=>v.length); 
