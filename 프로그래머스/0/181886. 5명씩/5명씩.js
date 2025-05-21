@@ -1,1 +1,1 @@
-solution=(a)=>a.filter((v,i)=>i%5==0);
+solution=(a)=>a.filter((v,i)=>i%5==0); 
