@@ -5,5 +5,5 @@ function solution(arr) {
     while(n < len) n*=2;
     if (n == len) return arr;
     for (let i = len; i < n; i++) arr.push(0)
-    return arr;
+    return arr; 
 }
