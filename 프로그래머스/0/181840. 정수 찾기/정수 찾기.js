@@ -1,1 +1,1 @@
-const solution = (arr, n) => arr.find(v => v==n) ? 1 : 0;
+const solution = (arr, n) => arr.find(v => v==n) ? 1 : 0; 
