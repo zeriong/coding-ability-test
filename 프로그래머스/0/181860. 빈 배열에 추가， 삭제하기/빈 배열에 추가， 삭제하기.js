@@ -19,5 +19,5 @@ function solution(arr, flag) {
         else decreaseArr(v);
     })
     
-    return answer;
+    return answer; 
 }

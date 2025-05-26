@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.39 ms
+메모리: 33.5 MB, 시간: 0.33 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 16일 20:03:24
+2025년 05월 26일 17:25:09
 
 ### 문제 설명
 
@@ -58,23 +58,52 @@
 <ul>
 <li>예제 1번에서 X의 변화를 표로 나타내면 다음과 같습니다</li>
 </ul>
-
-<p>|i|flag[i]|arr[i]|X|</p>
-
-<p>|---|----|-|-|</p>
-
-<p>||||[]|</p>
-
-<p>|0|true|3|[3, 3, 3, 3, 3, 3]|</p>
-
-<p>|1|false|2|[3, 3, 3, 3]|</p>
-
-<p>|2|true|4|[3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4]|</p>
-
-<p>|3|false|1|[3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4]|</p>
-
-<p>|4|false|3|[3, 3, 3, 3, 4, 4, 4, 4]|</p>
-<div class="highlight"><pre class="codehilite"><code>따라서 [3, 3, 3, 3, 4, 4, 4, 4]를 return 합니다.
+<table class="table">
+        <thead><tr>
+<th>i</th>
+<th>flag[i]</th>
+<th>arr[i]</th>
+<th>X</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td>[]</td>
+</tr>
+<tr>
+<td>0</td>
+<td>true</td>
+<td>3</td>
+<td>[3, 3, 3, 3, 3, 3]</td>
+</tr>
+<tr>
+<td>1</td>
+<td>false</td>
+<td>2</td>
+<td>[3, 3, 3, 3]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>true</td>
+<td>4</td>
+<td>[3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>false</td>
+<td>1</td>
+<td>[3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>false</td>
+<td>3</td>
+<td>[3, 3, 3, 3, 4, 4, 4, 4]</td>
+</tr>
+</tbody>
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [3, 3, 3, 3, 4, 4, 4, 4]를 return 합니다.
 </code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
