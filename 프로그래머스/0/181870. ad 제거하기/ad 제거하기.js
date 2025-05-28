@@ -1,1 +1,1 @@
-solution=(a)=>a.filter(v=>!v.includes("ad"));
+solution=(a)=>a.filter(v=>!v.includes("ad")); 
