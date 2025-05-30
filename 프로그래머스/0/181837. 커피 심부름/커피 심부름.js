@@ -18,5 +18,5 @@ function solution(order) {
     return order.reduce((a,c) => {
         const findOne = menu.find(m => c.includes(m.name)); 
         return a += findOne.cost
-    }, 0);
+    }, 0); 
 }
