@@ -14,5 +14,5 @@ function solution(arr) {
         }
     }
     
-    return Number(!isDiff);
+    return Number(!isDiff); 
 }
