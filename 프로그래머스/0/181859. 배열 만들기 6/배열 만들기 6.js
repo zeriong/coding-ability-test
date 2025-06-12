@@ -21,5 +21,5 @@ function solution(arr) {
         }
     }
     
-    return answer.length ? answer : [-1];
+    return answer.length ? answer : [-1]; 
 }
