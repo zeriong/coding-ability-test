@@ -14,5 +14,5 @@ function solution(picture, k) {
         }
     }
     
-    return answer;
+    return answer; 
 }
