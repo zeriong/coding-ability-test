@@ -4,5 +4,5 @@ function solution(my_string, alp) {
         const word = my_string[i];
         answer += (word == alp) ? word.toUpperCase() : word;
     }
-    return answer;
+    return answer; 
 }
