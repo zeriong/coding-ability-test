@@ -1,1 +1,1 @@
-solution=(f)=>Math.floor(f);
+solution=(f)=>Math.floor(f); 
