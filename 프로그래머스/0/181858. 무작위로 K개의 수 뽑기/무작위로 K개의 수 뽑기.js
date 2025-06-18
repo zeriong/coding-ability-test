@@ -3,6 +3,6 @@ function solution(arr, k) {
     if (k > setArr.length) {
         return Array.from({ length: k },(v,i) => isNaN(setArr[i]) ? -1 : setArr[i]);
     } else {
-        return setArr.slice(0, k);
+        return setArr.slice(0, k); 
     }
 }
