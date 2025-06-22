@@ -9,5 +9,5 @@ function solution(str_list) {
             return str_list.slice(i+1, len);
         }
     }
-    return answer;
+    return answer; 
 }
