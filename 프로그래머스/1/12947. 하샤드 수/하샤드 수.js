@@ -1,0 +1,1 @@
+solution=(x)=>!!!(x%[...String(x)].reduce((a,c)=>+a+ +(c)))
