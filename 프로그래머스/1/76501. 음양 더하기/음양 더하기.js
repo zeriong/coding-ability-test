@@ -1,0 +1,1 @@
+solution=(a, s)=>a.reduce((a,c,i)=>(s[i]?a+c:a-c),0);
