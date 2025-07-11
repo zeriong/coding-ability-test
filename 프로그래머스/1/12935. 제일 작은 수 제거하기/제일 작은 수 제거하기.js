@@ -1,0 +1,1 @@
+solution=(a)=>a.length!=1?a.filter(v=>v!=Math.min(...a)):[-1];
