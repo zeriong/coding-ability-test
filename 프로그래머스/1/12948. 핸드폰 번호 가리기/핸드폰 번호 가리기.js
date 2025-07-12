@@ -1,0 +1,1 @@
+solution=(n)=>[...n].map((v,i,a)=>a.length-4<=i?v:"*").join("");
