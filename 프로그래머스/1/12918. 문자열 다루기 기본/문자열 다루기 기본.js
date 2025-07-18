@@ -1,0 +1,1 @@
+solution=(s)=>s.length == 4 || s.length == 6 ? ![...s].map(v=>+ v).some(v=>isNaN(v)) : false
