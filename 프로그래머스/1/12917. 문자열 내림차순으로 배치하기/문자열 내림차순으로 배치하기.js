@@ -1,0 +1,1 @@
+solution=(s)=>s.split('').sort((a,b)=>a>b?-1:a<b&&1).join('');
