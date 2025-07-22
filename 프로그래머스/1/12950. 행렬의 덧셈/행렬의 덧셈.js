@@ -1,0 +1,1 @@
+solution=(f,s)=>f.map((a,i)=>a.map((v,j)=>v+s[i][j]));
