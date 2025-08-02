@@ -1,0 +1,1 @@
+solution=(s)=>s.split(" ").map(v=>[...v].map((_v,i)=>i ? _v.toLowerCase() : _v.toUpperCase()).join("")).join(" ")
