@@ -1,0 +1,1 @@
+solution=(n)=>[...(""+n)].filter(v=>["3","6","9"].some(s=>s==v)).length;
