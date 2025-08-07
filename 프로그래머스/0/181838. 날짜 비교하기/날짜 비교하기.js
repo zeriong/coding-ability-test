@@ -1,0 +1,1 @@
+solution=(a, b)=>+(+a.join("")<b.join(""));
