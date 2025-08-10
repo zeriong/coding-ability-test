@@ -21,5 +21,5 @@ function solution(N, number) {
         if (arr[i].has(number)) return i + 1;
     }
     
-    return -1;
+    return -1; 
 }
