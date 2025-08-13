@@ -1,0 +1,1 @@
+solution=(a,b)=>+((a/b).toFixed(10))==a/b?1:2;
