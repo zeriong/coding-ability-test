@@ -4,5 +4,5 @@ function solution(my_string, n) {
     for (let i = 0; i < n; i++) {
         answer.push(reverse[i]);
     }
-    return answer.reverse().join("");
+    return answer.reverse().join(""); 
 }
