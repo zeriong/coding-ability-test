@@ -25,5 +25,5 @@ function solution(record) {
         answer.push(txt)
     })
     
-    return answer;
+    return answer; 
 }
